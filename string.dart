@@ -15,9 +15,15 @@ void main(List<String> args) {
 
   // print(name3.runtimeType);
 
-  var multi = '''this is 
-  multiline string''';
+  // var multi = '''this is
+  // multiline string''';
 
-  print(multi);
-  print(multi.runtimeType);
+  // print(multi);
+  // print(multi.runtimeType);
+
+//  Expression inside string
+
+  // var $name = "john";
+
+  // print("my name is == ${$name}");
 }
