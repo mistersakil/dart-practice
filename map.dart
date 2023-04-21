@@ -19,4 +19,11 @@ void main(List<String> args) {
   // print(empty_map);
 
   // print(empty_map.runtimeType);
+
+  /// dynamic empty map using constructor
+
+  // var dynamic_empty_map = Map();
+
+  // print(dynamic_empty_map);
+  // print(dynamic_empty_map.runtimeType);
 }
