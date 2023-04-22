@@ -25,5 +25,4 @@ void main(List<String> args) {
   // var dynamic_empty_map = Map();
 
   // print(dynamic_empty_map);
-  // print(dynamic_empty_map.runtimeType);
 }
