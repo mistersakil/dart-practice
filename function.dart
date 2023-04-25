@@ -8,3 +8,7 @@ void main(List<String> args) {
 int sum(int a, int b) {
   return a + b;
 }
+
+int calculation(Function callback) {
+  return callback();
+}
