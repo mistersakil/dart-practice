@@ -12,3 +12,7 @@ int sum(int a, int b) {
 int calculation(Function callback) {
   return callback();
 }
+
+/// arrow function
+
+int anno(int a, int b) => a + b;
