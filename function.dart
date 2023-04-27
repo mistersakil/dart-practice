@@ -1,6 +1,7 @@
 void main(List<String> args) {
   /// working on function
   sum(10, 5);
+  anno(10, 3);
 }
 
 /// function with return value
