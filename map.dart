@@ -27,13 +27,15 @@ void main(List<String> args) {
   // print(dynamic_empty_map);
   // print(dynamic_empty_map.runtimeType);
 
-  // Map<String, dynamic> map1 = Map();
-  // map1['name'] = 'sakil';
-  // map1['email'] = 'sakil@gmail.com';
-  // map1['sex'] = 'male';
-  // map1['age'] = 33;
-  // map1['skills'] = {'php', 'laravel', 'javascript', 'react', 'dart', 'flutter'};
+  Map<String, dynamic> map1 = Map();
+  map1['name'] = 'sakil';
+  map1['email'] = 'sakil@gmail.com';
+  map1['sex'] = 'male';
+  map1['age'] = 33;
+  map1['skills'] = ['php', 'laravel', 'javascript', 'react', 'dart', 'flutter'];
 
   // print(map1);
   // print(map1.runtimeType);
+  print(map1['skills']);
+  print(map1['skills'][0]);
 }
