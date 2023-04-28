@@ -36,6 +36,16 @@ void main(List<String> args) {
 
   // print(map1);
   // print(map1.runtimeType);
-  print(map1['skills']);
-  print(map1['skills'][0]);
+  // print(map1['skills']);
+  // print(map1['skills'][0]);
+
+  /// properties and methods
+
+  // print(map1.length);
+  // print(map1.isEmpty);
+  // print(map1.isNotEmpty);
+  // print(map1.keys);
+  // print(map1.values);
+  // print(map1.containsKey('sex'));
+  // print(map1.containsValue(33));
 }
