@@ -22,7 +22,18 @@ void main(List<String> args) {
 
   /// dynamic empty map using constructor
 
-  // var dynamic_empty_map = Map();
+  var dynamic_empty_map = Map();
 
   // print(dynamic_empty_map);
+  // print(dynamic_empty_map.runtimeType);
+
+  // Map<String, dynamic> map1 = Map();
+  // map1['name'] = 'sakil';
+  // map1['email'] = 'sakil@gmail.com';
+  // map1['sex'] = 'male';
+  // map1['age'] = 33;
+  // map1['skills'] = {'php', 'laravel', 'javascript', 'react', 'dart', 'flutter'};
+
+  // print(map1);
+  // print(map1.runtimeType);
 }
