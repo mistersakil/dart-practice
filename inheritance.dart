@@ -31,7 +31,7 @@ class Son extends Father {
 }
 
 class Daughter extends Father {
-  String? car = "toyota alion a15";
+  String? car = "toyota corolla";
 
   Daughter(super.salami, super.child_name);
 
