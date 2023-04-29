@@ -68,5 +68,6 @@ class Mobile {
 
   show_model() {
     print(model);
+    print(ram);
   }
 }
