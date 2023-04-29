@@ -4,6 +4,8 @@ import 'dart:math';
 void main(List<String> args) {
   // var point2 = Point2(2, 3.0);
   // print(point2.distance);
+  var vivo = new Mobile('vivo 23', 4);
+  vivo.show_model();
 }
 
 // class Point3 {
@@ -54,9 +56,17 @@ class Point {
 
 class Mobile {
   String? model;
+  int? ram;
 
-  show_model(String model_name) {
-    model = model_name;
+  /// constructor process one
+  // Mobile(String model, int ram)
+  //     : model = model,
+  //       ram = ram;
+
+  /// constructor process one
+  Mobile(this.model, this.ram);
+
+  show_model() {
     print(model);
   }
 }
